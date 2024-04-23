@@ -91,7 +91,7 @@ view :
     -> View (PagesMsg Msg)
 view app _ =
     { title = "Irish Dream - " ++ app.data.service.service.title
-    , body = [ Layout.Service.viewService app.data.service ]
+    , body = [ Layout.Course.viewService app.data.service ]
     }
 
 

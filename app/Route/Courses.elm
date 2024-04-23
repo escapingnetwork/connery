@@ -88,6 +88,6 @@ view app model =
         , Html.div
             [ Attrs.class "mx-auto max-w-none dark:prose-invert xl:col-span-2 xl:max-w-5xl xl:px-0  overflow-hidden " ]
           <|
-            List.map Layout.Service.viewListItem app.data.serviceMetadata
+            List.map Layout.Course.viewListItem app.data.serviceMetadata
         ]
     }
