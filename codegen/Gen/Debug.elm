@@ -52,7 +52,7 @@ toString toStringArg =
     length (log "start" [])   -- equals 0, logs "start: []"
 
 It is often possible to sprinkle this around to see if values are what you
-expect. It is kind of old-school to do it this way, but it works!
+expect. It is kind of old-Schools to do it this way, but it works!
 
 **Note:** This is not available with `elm make --optimize` because (1) it
 relies on `toString` which has the same restriction and (2) it is not a pure

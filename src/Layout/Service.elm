@@ -4,7 +4,7 @@ module Layout.Service exposing
     , viewServiceList
     )
 
-import Content.Services exposing (Metadata, Service)
+import Content.Our_Schools exposing (Metadata, Service)
 import Html exposing (Html)
 import Html.Attributes as Attrs
 import Html.Extra
@@ -161,7 +161,7 @@ viewService { service, body, previousService, nextService } =
                 [ Attrs.href "/student/sign-up"
                 , Attrs.class "inline-flex justify-center py-5 px-10 text-base font-semibold text-center text-white rounded-lg bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-600"
                 ]
-                [ Html.text "Request Accommodation"
+                [ Html.text "Book Course"
                 ]
             ]
         , Html.div

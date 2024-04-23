@@ -22,7 +22,7 @@ locale =
 
 title : String
 title =
-    "Capybara House"
+    "Irish Dream"
 
 
 subtitle : String
@@ -32,4 +32,4 @@ subtitle =
 
 author : String
 author =
-    "Tranquera LLC"
+    "Delfin English School"

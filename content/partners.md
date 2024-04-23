@@ -1,6 +1,6 @@
 ---
-title: Become A Partner
-company: Tranquera LLC
+title: Services
+company: Delfin English School
 ---
 
 ![](/images/dublin.jpg)

@@ -1,7 +1,7 @@
 ---
-name: Capybara House
+name: Irish Dream
 avatar: /media/logo.svg
-company: Tranquera LLC
+company: Delfin English School
 socials:
   email: info@capybara.house
   linkedin: https://www.linkedin.com/company/tranquera-llc
@@ -15,7 +15,7 @@ We are a team who have been working with international students and the accommod
 
 ## Our product
 
-Capybara House is a brand owned by Tranquera LLC a USA company.
+Irish Dream is a brand owned by Tranquera LLC a USA company.
 
 ### Why we are based USA?
 

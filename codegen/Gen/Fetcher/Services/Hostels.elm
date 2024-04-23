@@ -16,7 +16,7 @@ moduleName_ =
 
 
 {-| submit: 
-    (Result Http.Error Route.Services.Hostels.ActionData -> msg)
+    (Result Http.Error Our_Schools.Hostels.ActionData -> msg)
     -> { fields : List ( String, String ), headers : List ( String, String ) }
     -> Pages.Fetcher.Fetcher msg
 -}
