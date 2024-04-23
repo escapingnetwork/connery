@@ -1,4 +1,4 @@
-module Gen.Route.Services.Hostels exposing (annotation_, make_, moduleName_, route, values_)
+module Gen.Our_Schools.Hostels exposing (annotation_, make_, moduleName_, route, values_)
 
 {-| 
 @docs values_, make_, annotation_, route, moduleName_

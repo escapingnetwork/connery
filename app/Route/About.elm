@@ -62,7 +62,7 @@ view :
     -> Shared.Model
     -> View (PagesMsg Msg)
 view app _ =
-    { title = "Capybara House - About"
+    { title = "Irish Dream - About"
     , body =
         [ Layout.About.view app.data.author ]
     }

@@ -6,7 +6,7 @@ company: Tranquera LLC
 # Privacy Policy 
 
 This privacy statement ("Privacy Statement") intends to explain to you
-the information practices of Capybara House with the information we
+the information practices of Irish Dream with the information we
 collect about you and other website users.
 
 Please read this Statement carefully (together with our and Cookie
@@ -14,14 +14,14 @@ Policy (and any other documents referred to on it) as they set out the
 basis on which any personal data we collect from you or that you provide
 to us will be processed by us.
 
-By visiting the Capybara House website, you accept and consent to the
+By visiting the Irish Dream website, you accept and consent to the
 practices described in this Statement.
 
 ## INFORMATION WE COLLECT
 
 You may choose to give us information about you by filling in forms on
 our site such as the Contact Us Form or by corresponding with us by
-phone, e-mail or otherwise. Capybara House only asks you to disclose as
+phone, e-mail or otherwise. Irish Dream only asks you to disclose as
 much information as is necessary to provide you with the information
 requested by you or to submit a question/suggestion/comment concerning
 our website.
@@ -48,7 +48,7 @@ We will only use such information for:
 
 * For analysis purposes, including ensuring that content from our site is presented most effectively for you and your computer.
 
-* Capybara House undertakes not to sell or rent any third party whatsoever any personally identifiable information about you.
+* Irish Dream undertakes not to sell or rent any third party whatsoever any personally identifiable information about you.
 
 ## YOUR RIGHTS
 
@@ -84,7 +84,7 @@ possible.
 
 This Privacy Statement may change from time to time, and any changes to
 this Policy will be posted on the website and will be effective when
-posted. As your use of the Capybara House website is subject to your
+posted. As your use of the Irish Dream website is subject to your
 acceptance of this Privacy Statement and any amendments to that, please
 review the Privacy Statement each time you use this website.
 

@@ -7,7 +7,7 @@ module Route.Services exposing (Model, Msg, RouteParams, route, Data, ActionData
 -}
 
 import BackendTask exposing (BackendTask)
-import Content.Services exposing (Metadata)
+import Content.Our_Schools exposing (Metadata)
 import FatalError exposing (FatalError)
 import Head
 import Head.Seo as Seo
@@ -59,7 +59,7 @@ route =
 
 data : BackendTask FatalError Data
 data =
-    Content.Services.allServices
+    Content.Our_Schools.allServices
         |> BackendTask.map (\allServices -> List.map .service allServices |> (\allMetadata -> { serviceMetadata = allMetadata }))
 
 
@@ -75,7 +75,7 @@ view :
     -> Shared.Model
     -> View (PagesMsg Msg)
 view app model =
-    { title = "Capybara House - Services"
+    { title = "Irish Dream - Our Schools"
     , body =
         [ Html.div
             [ Attrs.class "space-y-2 pb-8 pt-6 md:space-y-5"
@@ -83,7 +83,7 @@ view app model =
             [ Html.h1
                 [ Attrs.class "text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 text-center"
                 ]
-                [ Html.text "Our Services" ]
+                [ Html.text "Our Schools" ]
             ]
         , Html.div
             [ Attrs.class "mx-auto max-w-none dark:prose-invert xl:col-span-2 xl:max-w-5xl xl:px-0  overflow-hidden " ]

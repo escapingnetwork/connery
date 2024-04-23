@@ -109,11 +109,11 @@ view =
                 [ Html.h1
                     [ Attrs.class "mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
                     ]
-                    [ Html.text "Looking for accommodation in Dublin?" ]
+                    [ Html.text "Are you ready to improve your English?" ]
                 , Html.p
                     [ Attrs.class "mb-8 text-lg font-bold text-gray-200 lg:text-xl sm:px-16 lg:px-48"
                     ]
-                    [ Html.text "Here at Capybara House we focus on providing the best options for lodging in Ireland." ]
+                    [ Html.text "Go on board, our Drakkar is waiting for you." ]
                 , Html.div
                     [ Attrs.class "flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0"
                     ]
@@ -121,13 +121,13 @@ view =
                         [ Attrs.href "/student/sign-up"
                         , Attrs.class "inline-flex justify-center items-center py-3 px-5 text-base font-semibold text-center text-white rounded-lg bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-600"
                         ]
-                        [ Html.text "Request Accommodation"
+                        [ Html.text "Contact Us"
                         ]
                     , Html.a
-                        [ Attrs.href "/services"
+                        [ Attrs.href "/host/sign-up"
                         , Attrs.class "inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-semibold text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
                         ]
-                        [ Html.text "Our Services" ]
+                        [ Html.text "Our Courses" ]
                     ]
                 ]
             , Html.video
@@ -135,7 +135,7 @@ view =
                 , Attrs.loop True
                 , Attrs.attribute "muted" ""
                 , Attrs.id "dublin"
-                , Attrs.class "absolute z-10 w-auto min-w-full min-h-full max-w-none"
+                , Attrs.class "absolute z-10 h-auto w-auto min-w-none min-h-full max-h-full max-w-none"
                 , Attrs.class "bg-center bg-no-repeat bg-[url('/media/video.mp4')] bg-gray-700 bg-blend-multiply"
                 ]
                 [ Html.source
@@ -160,7 +160,7 @@ view =
         -- --             , Attrs.attribute "decoding" "async"
         -- --             , Attrs.attribute "data-nimg" "1"
         -- --             , Attrs.class "h-48 w-48"
-        -- --             , Attrs.src "/images/services/half-board.jpg"
+        -- --             , Attrs.src "/images/Schools/Delfin.png"
         -- --             , Attrs.style "color" "transparent"
         -- --             ]
         -- --             []

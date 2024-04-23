@@ -1,10 +1,9 @@
 ---
-title: Become A Host
-company: Tranquera LLC
+title: Our Courses
+company: Delfin English School
 ---
 
-# Become a Host
+# Our Courses
 
-At Capybara House, we are looking for host families that are interested in hosting our students. We offer different rates depending on the service provided. 
+At Irish Dream, we are focus on provideing assistence to everyone who wants study in Ireland. You will find below the courses available in our school parteners.
 
-If you want to know about our rates and the benefit to work with us, just fill out the form below:

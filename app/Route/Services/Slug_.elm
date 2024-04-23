@@ -7,7 +7,7 @@ module Route.Services.Slug_ exposing (Model, Msg, RouteParams, route, Data, Acti
 -}
 
 import BackendTask exposing (BackendTask)
-import Content.Services exposing (Service)
+import Content.Our_Schools exposing (Service)
 import Effect
 import ErrorPage
 import FatalError exposing (FatalError)
@@ -46,11 +46,10 @@ route =
 
 pages : BackendTask FatalError (List RouteParams)
 pages =
-    Content.Services.allServices
+    Content.Our_Schools.allServices
         |> BackendTask.map
             (\services ->
-                List.map (\{ service } -> { slug = service.slug }) services
-            )
+                List.map (\{ service } -> { slug = service.slug }) services)
 
 
 init :
@@ -78,7 +77,7 @@ type alias ActionData =
 data : RouteParams -> BackendTask FatalError Data
 data routeParams =
     BackendTask.map Data
-        (Content.Services.serviceFromSlug routeParams.slug)
+        (Content.Our_Schools.serviceFromSlug routeParams.slug)
 
 
 head : RouteBuilder.App Data ActionData RouteParams -> List Head.Tag
@@ -91,7 +90,7 @@ view :
     -> Shared.Model
     -> View (PagesMsg Msg)
 view app _ =
-    { title = "Capybara House - " ++ app.data.service.service.title
+    { title = "Irish Dream - " ++ app.data.service.service.title
     , body = [ Layout.Service.viewService app.data.service ]
     }
 
